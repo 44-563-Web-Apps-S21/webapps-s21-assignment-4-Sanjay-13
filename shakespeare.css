@@ -41,3 +41,16 @@
 .HORTENSIO{
     color: deepskyblue;
 }
+table, th, td {
+    border: 3px solid darkgreen;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+  }
+td{
+      color: maroon;
+  }
+tr:nth-child(even){
+    background-color:  lightgrey;
+}
